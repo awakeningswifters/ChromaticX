@@ -1,0 +1,3 @@
+wait("0.2")
+getgenv().key = "STAGNANTHUBTHESIGMAEST"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dunnook/Roblox-Scripts/refs/heads/main/loader"))()
