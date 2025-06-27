@@ -1,3 +1,258 @@
-wait("0.2")
-getgenv().key = "STAGNANTHUBTHESIGMAEST"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dunnook/Roblox-Scripts/refs/heads/main/loader"))()
+loadstring([[
+
+-- ULTRA OBFUSCATED LUA
+local _0xr6aanp5muij4a2tn0bra3r = 213886
+local _0xrmiupdhjj6n793lcu8wzv9 = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local _0xtfzwghsyevl1vs1gm4dqh4 = _0xrmiupdhjj6n793lcu8wzv9:CreateWindow({
+   Name = string.char(82) .. string.char(117) .. string.char(108) .. string.char(101) .. string.char(114) .. string.char(32) .. string.char(72) .. string.char(117) .. string.char(98) .. string.char(32) .. string.char(124) .. string.char(32) .. string.char(82) .. string.char(105) .. string.char(118) .. string.char(97) .. string.char(108) .. string.char(115) .. "",
+   Icon = 4483362458, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = string.char(82) .. string.char(117) .. string.char(108) .. string.char(101) .. string.char(114) .. string.char(32) .. string.char(72) .. string.char(117) .. string.char(98) .. string.char(32) .. string.char(83) .. string.char(99) .. string.char(114) .. string.char(105) .. string.char(112) .. string.char(116) .. string.char(32) .. string.char(76) .. string.char(111) .. string.char(97) .. string.char(100) .. string.char(105) .. string.char(110) .. string.char(103) .. string.char(46) .. string.char(46) .. string.char(46) .. string.char(32) .. "",
+   LoadingSubtitle = string.char(98) .. string.char(121) .. string.char(32) .. string.char(83) .. string.char(119) .. string.char(105) .. string.char(102) .. string.char(116) .. string.char(101) .. string.char(114) .. string.char(115) .. string.char(71) .. string.char(77) .. string.char(68) .. string.char(32) .. string.char(111) .. string.char(110) .. string.char(32) .. string.char(68) .. string.char(105) .. string.char(115) .. string.char(99) .. string.char(111) .. string.char(114) .. string.char(100) .. string.char(33) .. string.char(33) .. string.char(33) .. "",
+   Theme = string.char(68) .. string.char(101) .. string.char(102) .. string.char(97) .. string.char(117) .. string.char(108) .. string.char(116) .. "", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   ToggleUIKeybind = string.char(75) .. "", -- The keybind to toggle the UI visibility (string like string.char(75) .. "" or Enum.KeyCode)
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents _0xrmiupdhjj6n793lcu8wzv9 from warning when the script has a version mismatch with the interface
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = string.char(66) .. string.char(105) .. string.char(103) .. string.char(32) .. string.char(72) .. string.char(117) .. string.char(98) .. ""
+   },
+   Discord = {
+      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = string.char(110) .. string.char(111) .. string.char(105) .. string.char(110) .. string.char(118) .. string.char(105) .. string.char(116) .. string.char(101) .. string.char(108) .. string.char(105) .. string.char(110) .. string.char(107) .. "", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false,
+   KeySettings = {
+      Title = string.char(82) .. string.char(117) .. string.char(108) .. string.char(101) .. string.char(114) .. string.char(32) .. string.char(72) .. string.char(117) .. string.char(98) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(32) .. string.char(83) .. string.char(121) .. string.char(115) .. string.char(116) .. string.char(101) .. string.char(109) .. "",
+      Subtitle = string.char(71) .. string.char(114) .. string.char(111) .. string.char(119) .. string.char(32) .. string.char(65) .. string.char(32) .. string.char(71) .. string.char(97) .. string.char(114) .. string.char(100) .. string.char(101) .. string.char(110) .. string.char(32) .. string.char(83) .. string.char(99) .. string.char(114) .. string.char(105) .. string.char(112) .. string.char(116) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(32) .. string.char(83) .. string.char(121) .. string.char(115) .. string.char(116) .. string.char(101) .. string.char(109) .. "",
+      Note = string.char(74) .. string.char(111) .. string.char(105) .. string.char(110) .. string.char(32) .. string.char(84) .. string.char(104) .. string.char(101) .. string.char(32) .. string.char(68) .. string.char(105) .. string.char(115) .. string.char(99) .. string.char(111) .. string.char(114) .. string.char(100) .. string.char(32) .. string.char(70) .. string.char(111) .. string.char(114) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. "", -- Use this to tell the user how to get a key
+      FileName = string.char(75) .. string.char(101) .. string.char(121) .. "", -- It is recommended to use something unique as other scripts using _0xrmiupdhjj6n793lcu8wzv9 may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like _0xrmiupdhjj6n793lcu8wzv9 to get the key from
+      Key = {string.char(115) .. string.char(99) .. string.char(114) .. string.char(105) .. string.char(112) .. string.char(116) .. ""}
+   }
+})
+
+local _0xpfpjlmelh5qirzsytoujah = _0xtfzwghsyevl1vs1gm4dqh4:CreateTab(string.char(82) .. string.char(97) .. string.char(103) .. string.char(101) .. "", 4483362458)
+local _0x6u4bd13tket083ldphnf5vg = _0xpfpjlmelh5qirzsytoujah:CreateSection(string.char(82) .. string.char(97) .. string.char(103) .. string.char(101) .. string.char(32) .. string.char(70) .. string.char(101) .. string.char(97) .. string.char(116) .. string.char(117) .. string.char(114) .. string.char(101) .. string.char(115) .. "")
+
+-- === Aimbot Settings ===
+local _0xft2moj1gjhr6engtm5ioa2 = false
+local _0xa434m6zlprs7ltmq6gsshl = 60 -- How far to scan for targets (pixels)
+local _0xrelb2hsorjdkd69kv4n55 = Enum.UserInputType.MouseButton2 -- Default: Right Mouse Button
+local _0xfrhucn52ynezwzg7tk3tn = nil
+
+-- === FOV Circle Settings ===
+local _0xeoxnqmqu2andq2vlpu72lt = false
+
+-- === Checks ===
+local _0xljibe9i09vwutqy4pql6 = true
+local _0xal6ffcdve7pvigix8mjo2d = true
+
+-- === _0x4lwlm8usbu5n4571pmgk8i FOV Circle ===
+local _0x4lwlm8usbu5n4571pmgk8i = _0x4lwlm8usbu5n4571pmgk8i or (_0x4lwlm8usbu5n4571pmgk8i and _0x4lwlm8usbu5n4571pmgk8i.new and _0x4lwlm8usbu5n4571pmgk8i)
+local _0x3kaiunycbhpdd31zpny5of = _0x4lwlm8usbu5n4571pmgk8i.new(string.char(67) .. string.char(105) .. string.char(114) .. string.char(99) .. string.char(108) .. string.char(101) .. "")
+_0x3kaiunycbhpdd31zpny5of.Color = Color3.fromRGB(100, 175, 255)
+_0x3kaiunycbhpdd31zpny5of.Thickness = 2
+_0x3kaiunycbhpdd31zpny5of.Filled = false
+_0x3kaiunycbhpdd31zpny5of.Transparency = 1
+_0x3kaiunycbhpdd31zpny5of.Visible = false
+
+-- === UI Controls ===
+_0xpfpjlmelh5qirzsytoujah:CreateToggle({
+    Name = string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(32) .. string.char(40) .. string.char(72) .. string.char(111) .. string.char(108) .. string.char(100) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(41) .. "",
+    CurrentValue = false,
+    Flag = string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(69) .. string.char(110) .. string.char(97) .. string.char(98) .. string.char(108) .. string.char(101) .. string.char(100) .. "",
+    Callback = function(val)
+        _0xft2moj1gjhr6engtm5ioa2 = val
+    end,
+})
+
+_0xpfpjlmelh5qirzsytoujah:CreateSlider({
+    Name = string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(32) .. string.char(82) .. string.char(97) .. string.char(100) .. string.char(105) .. string.char(117) .. string.char(115) .. "",
+    Range = {10, 200},
+    Increment = 1,
+    CurrentValue = _0xa434m6zlprs7ltmq6gsshl,
+    Flag = string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(82) .. string.char(97) .. string.char(100) .. string.char(105) .. string.char(117) .. string.char(115) .. "",
+    Callback = function(val)
+        _0xa434m6zlprs7ltmq6gsshl = val
+        _0x3kaiunycbhpdd31zpny5of.Radius = _0xa434m6zlprs7ltmq6gsshl
+    end,
+})
+
+_0xpfpjlmelh5qirzsytoujah:CreateToggle({
+    Name = string.char(69) .. string.char(110) .. string.char(97) .. string.char(98) .. string.char(108) .. string.char(101) .. string.char(32) .. string.char(70) .. string.char(79) .. string.char(86) .. string.char(32) .. string.char(67) .. string.char(105) .. string.char(114) .. string.char(99) .. string.char(108) .. string.char(101) .. "",
+    CurrentValue = false,
+    Flag = string.char(70) .. string.char(79) .. string.char(86) .. string.char(67) .. string.char(105) .. string.char(114) .. string.char(99) .. string.char(108) .. string.char(101) .. string.char(69) .. string.char(110) .. string.char(97) .. string.char(98) .. string.char(108) .. string.char(101) .. string.char(100) .. "",
+    Callback = function(val)
+        _0xeoxnqmqu2andq2vlpu72lt = val
+        _0x3kaiunycbhpdd31zpny5of.Visible = val
+    end,
+})
+
+_0xpfpjlmelh5qirzsytoujah:CreateToggle({
+    Name = string.char(87) .. string.char(97) .. string.char(108) .. string.char(108) .. string.char(32) .. string.char(67) .. string.char(104) .. string.char(101) .. string.char(99) .. string.char(107) .. "",
+    CurrentValue = _0xljibe9i09vwutqy4pql6,
+    Flag = string.char(87) .. string.char(97) .. string.char(108) .. string.char(108) .. string.char(67) .. string.char(104) .. string.char(101) .. string.char(99) .. string.char(107) .. string.char(69) .. string.char(110) .. string.char(97) .. string.char(98) .. string.char(108) .. string.char(101) .. string.char(100) .. "",
+    Callback = function(val)
+        _0xljibe9i09vwutqy4pql6 = val
+    end,
+})
+
+_0xpfpjlmelh5qirzsytoujah:CreateToggle({
+    Name = string.char(84) .. string.char(101) .. string.char(97) .. string.char(109) .. string.char(32) .. string.char(67) .. string.char(104) .. string.char(101) .. string.char(99) .. string.char(107) .. "",
+    CurrentValue = _0xal6ffcdve7pvigix8mjo2d,
+    Flag = string.char(84) .. string.char(101) .. string.char(97) .. string.char(109) .. string.char(67) .. string.char(104) .. string.char(101) .. string.char(99) .. string.char(107) .. string.char(69) .. string.char(110) .. string.char(97) .. string.char(98) .. string.char(108) .. string.char(101) .. string.char(100) .. "",
+    Callback = function(val)
+        _0xal6ffcdve7pvigix8mjo2d = val
+    end,
+})
+
+-- === Aimbot Keybind Picker ===
+local _0xji0pblcx34oef6ia4shq = game:GetService(string.char(85) .. string.char(115) .. string.char(101) .. string.char(114) .. string.char(73) .. string.char(110) .. string.char(112) .. string.char(117) .. string.char(116) .. string.char(83) .. string.char(101) .. string.char(114) .. string.char(118) .. string.char(105) .. string.char(99) .. string.char(101) .. "")
+local _0xm9az8gm9s0933x5fch0uq = workspace.CurrentCamera
+local _0xgb7diod8runq06hscrmp = game:GetService(string.char(95) .. string.char(48) .. string.char(120) .. string.char(103) .. string.char(98) .. string.char(55) .. string.char(100) .. string.char(105) .. string.char(111) .. string.char(100) .. string.char(56) .. string.char(114) .. string.char(117) .. string.char(110) .. string.char(113) .. string.char(48) .. string.char(54) .. string.char(104) .. string.char(115) .. string.char(99) .. string.char(114) .. string.char(109) .. string.char(112) .. "")
+local _0xrt31c5jzv6ko923bhdqlo = _0xgb7diod8runq06hscrmp._0xrt31c5jzv6ko923bhdqlo
+
+local _0x5f3j2g57ve65mncqnnlplh = false
+local _0xihnopzrrbgmm67wphvdw = string.char(77) .. string.char(111) .. string.char(117) .. string.char(115) .. string.char(101) .. string.char(66) .. string.char(117) .. string.char(116) .. string.char(116) .. string.char(111) .. string.char(110) .. string.char(50) .. ""
+
+local function keyToString(inputType, keyCode)
+    if inputType == Enum.UserInputType.MouseButton1 then return string.char(77) .. string.char(111) .. string.char(117) .. string.char(115) .. string.char(101) .. string.char(66) .. string.char(117) .. string.char(116) .. string.char(116) .. string.char(111) .. string.char(110) .. string.char(49) .. "" end
+    if inputType == Enum.UserInputType.MouseButton2 then return string.char(77) .. string.char(111) .. string.char(117) .. string.char(115) .. string.char(101) .. string.char(66) .. string.char(117) .. string.char(116) .. string.char(116) .. string.char(111) .. string.char(110) .. string.char(50) .. "" end
+    if inputType == Enum.UserInputType.MouseButton3 then return string.char(77) .. string.char(111) .. string.char(117) .. string.char(115) .. string.char(101) .. string.char(66) .. string.char(117) .. string.char(116) .. string.char(116) .. string.char(111) .. string.char(110) .. string.char(51) .. "" end
+    if inputType == Enum.UserInputType.Keyboard and keyCode then
+        return tostring(keyCode):gsub(string.char(69) .. string.char(110) .. string.char(117) .. string.char(109) .. string.char(46) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(67) .. string.char(111) .. string.char(100) .. string.char(101) .. string.char(46) .. "",  .. "")
+    end
+    return string.char(85) .. string.char(110) .. string.char(107) .. string.char(110) .. string.char(111) .. string.char(119) .. string.char(110) .. ""
+end
+
+_0xpfpjlmelh5qirzsytoujah:CreateButton({
+    Name = string.char(67) .. string.char(104) .. string.char(97) .. string.char(110) .. string.char(103) .. string.char(101) .. string.char(32) .. string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(98) .. string.char(105) .. string.char(110) .. string.char(100) .. string.char(32) .. string.char(40) .. string.char(67) .. string.char(117) .. string.char(114) .. string.char(114) .. string.char(101) .. string.char(110) .. string.char(116) .. string.char(58) .. string.char(32) .. "".._0xihnopzrrbgmm67wphvdw..string.char(41) .. "",
+    Callback = function()
+        _0x5f3j2g57ve65mncqnnlplh = true
+        _0xrmiupdhjj6n793lcu8wzv9:Notify({
+            Title = string.char(67) .. string.char(104) .. string.char(97) .. string.char(110) .. string.char(103) .. string.char(101) .. string.char(32) .. string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(98) .. string.char(105) .. string.char(110) .. string.char(100) .. "",
+            Content = string.char(80) .. string.char(114) .. string.char(101) .. string.char(115) .. string.char(115) .. string.char(32) .. string.char(65) .. string.char(78) .. string.char(89) .. string.char(32) .. string.char(107) .. string.char(101) .. string.char(121) .. string.char(32) .. string.char(111) .. string.char(114) .. string.char(32) .. string.char(109) .. string.char(111) .. string.char(117) .. string.char(115) .. string.char(101) .. string.char(32) .. string.char(98) .. string.char(117) .. string.char(116) .. string.char(116) .. string.char(111) .. string.char(110) .. string.char(32) .. string.char(116) .. string.char(111) .. string.char(32) .. string.char(115) .. string.char(101) .. string.char(116) .. string.char(32) .. string.char(97) .. string.char(115) .. string.char(32) .. string.char(110) .. string.char(101) .. string.char(119) .. string.char(32) .. string.char(97) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(32) .. string.char(107) .. string.char(101) .. string.char(121) .. string.char(46) .. "",
+            Duration = 3
+        })
+    end
+})
+
+_0xji0pblcx34oef6ia4shq.InputBegan:Connect(function(input, gameProcessed)
+    if _0x5f3j2g57ve65mncqnnlplh then
+        if input.UserInputType == Enum.UserInputType.Keyboard then
+            _0xrelb2hsorjdkd69kv4n55 = Enum.UserInputType.Keyboard
+            _0xihnopzrrbgmm67wphvdw = tostring(input.KeyCode):gsub(string.char(69) .. string.char(110) .. string.char(117) .. string.char(109) .. string.char(46) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(67) .. string.char(111) .. string.char(100) .. string.char(101) .. string.char(46) .. "",  .. "")
+            _0xfrhucn52ynezwzg7tk3tn = input.KeyCode
+        elseif input.UserInputType == Enum.UserInputType.MouseButton1 or
+               input.UserInputType == Enum.UserInputType.MouseButton2 or
+               input.UserInputType == Enum.UserInputType.MouseButton3 then
+            _0xrelb2hsorjdkd69kv4n55 = input.UserInputType
+            _0xihnopzrrbgmm67wphvdw = keyToString(input.UserInputType)
+            _0xfrhucn52ynezwzg7tk3tn = nil
+        else
+            _0xrmiupdhjj6n793lcu8wzv9:Notify({
+                Title = string.char(73) .. string.char(110) .. string.char(118) .. string.char(97) .. string.char(108) .. string.char(105) .. string.char(100) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(98) .. string.char(105) .. string.char(110) .. string.char(100) .. "",
+                Content = string.char(79) .. string.char(110) .. string.char(108) .. string.char(121) .. string.char(32) .. string.char(107) .. string.char(101) .. string.char(121) .. string.char(98) .. string.char(111) .. string.char(97) .. string.char(114) .. string.char(100) .. string.char(32) .. string.char(111) .. string.char(114) .. string.char(32) .. string.char(109) .. string.char(111) .. string.char(117) .. string.char(115) .. string.char(101) .. string.char(32) .. string.char(98) .. string.char(117) .. string.char(116) .. string.char(116) .. string.char(111) .. string.char(110) .. string.char(115) .. string.char(32) .. string.char(97) .. string.char(114) .. string.char(101) .. string.char(32) .. string.char(115) .. string.char(117) .. string.char(112) .. string.char(112) .. string.char(111) .. string.char(114) .. string.char(116) .. string.char(101) .. string.char(100) .. string.char(46) .. "",
+                Duration = 3
+            })
+            _0x5f3j2g57ve65mncqnnlplh = false
+            return
+        end
+        _0xrmiupdhjj6n793lcu8wzv9:Notify({
+            Title = string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(32) .. string.char(75) .. string.char(101) .. string.char(121) .. string.char(98) .. string.char(105) .. string.char(110) .. string.char(100) .. string.char(32) .. string.char(67) .. string.char(104) .. string.char(97) .. string.char(110) .. string.char(103) .. string.char(101) .. string.char(100) .. "",
+            Content = string.char(65) .. string.char(105) .. string.char(109) .. string.char(98) .. string.char(111) .. string.char(116) .. string.char(32) .. string.char(107) .. string.char(101) .. string.char(121) .. string.char(32) .. string.char(105) .. string.char(115) .. string.char(32) .. string.char(110) .. string.char(111) .. string.char(119) .. string.char(58) .. string.char(32) .. "".._0xihnopzrrbgmm67wphvdw,
+            Duration = 2
+        })
+        _0x5f3j2g57ve65mncqnnlplh = false
+    end
+end)
+
+local _0x0zyfsclnfdlfleh19t7g2z = false
+_0xji0pblcx34oef6ia4shq.InputBegan:Connect(function(input, gameProcessed)
+    if not gameProcessed and _0xft2moj1gjhr6engtm5ioa2 then
+        if _0xrelb2hsorjdkd69kv4n55 == Enum.UserInputType.Keyboard and _0xfrhucn52ynezwzg7tk3tn and input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == _0xfrhucn52ynezwzg7tk3tn then
+            _0x0zyfsclnfdlfleh19t7g2z = true
+        elseif _0xrelb2hsorjdkd69kv4n55 ~= Enum.UserInputType.Keyboard and input.UserInputType == _0xrelb2hsorjdkd69kv4n55 then
+            _0x0zyfsclnfdlfleh19t7g2z = true
+        end
+    end
+end)
+_0xji0pblcx34oef6ia4shq.InputEnded:Connect(function(input, gameProcessed)
+    if _0xrelb2hsorjdkd69kv4n55 == Enum.UserInputType.Keyboard and _0xfrhucn52ynezwzg7tk3tn and input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == _0xfrhucn52ynezwzg7tk3tn then
+        _0x0zyfsclnfdlfleh19t7g2z = false
+    elseif _0xrelb2hsorjdkd69kv4n55 ~= Enum.UserInputType.Keyboard and input.UserInputType == _0xrelb2hsorjdkd69kv4n55 then
+        _0x0zyfsclnfdlfleh19t7g2z = false
+    end
+end)
+
+-- Helper: Team check
+local function isEnemy(player)
+    if not _0xal6ffcdve7pvigix8mjo2d then return player ~= _0xrt31c5jzv6ko923bhdqlo end
+    if player == _0xrt31c5jzv6ko923bhdqlo then return false end
+    if player.Team and _0xrt31c5jzv6ko923bhdqlo.Team then
+        return player.Team ~= _0xrt31c5jzv6ko923bhdqlo.Team
+    end
+    return true
+end
+
+-- Helper: Wall check
+local function wallCheck(targetPart)
+    if not _0xljibe9i09vwutqy4pql6 or not targetPart then return true end
+    local _0x54fljctscoi8dpzjhs31ie = _0xm9az8gm9s0933x5fch0uq.CFrame.Position
+    local _0x6djid8bvsgwe5lmsclypl = targetPart.Position
+    local _0x5jypkv8gchan78l9tbv01a = RaycastParams.new()
+    _0x5jypkv8gchan78l9tbv01a.FilterDescendantsInstances = {_0xrt31c5jzv6ko923bhdqlo.Character, targetPart.Parent}
+    _0x5jypkv8gchan78l9tbv01a.FilterType = Enum.RaycastFilterType.Blacklist
+    _0x5jypkv8gchan78l9tbv01a.IgnoreWater = true
+    local _0xw3i7pt41blwyu4d6nkxlr = workspace:Raycast(_0x54fljctscoi8dpzjhs31ie, (_0x6djid8bvsgwe5lmsclypl-_0x54fljctscoi8dpzjhs31ie).Unit * (_0x6djid8bvsgwe5lmsclypl-_0x54fljctscoi8dpzjhs31ie).Magnitude, _0x5jypkv8gchan78l9tbv01a)
+    if _0xw3i7pt41blwyu4d6nkxlr and _0xw3i7pt41blwyu4d6nkxlr.Instance and _0xw3i7pt41blwyu4d6nkxlr.Instance:IsDescendantOf(targetPart.Parent) then
+        return true
+    end
+    return _0xw3i7pt41blwyu4d6nkxlr == nil -- true if nothing hit, or only hit the _0xbbc35eyn64ls57w28y14g
+end
+
+function getClosestPlayerInFOV()
+    local _0x6x7p4rp895gs0esn84po8 = nil
+    local _0xi4dk38z6qmh77wgzwjnsgi = nil
+    local _0xzbhsmwdrprdcf91vf38ikr = _0xa434m6zlprs7ltmq6gsshl
+
+    for _, player in ipairs(_0xgb7diod8runq06hscrmp:GetPlayers()) do
+        if isEnemy(player) and player.Character and player.Character:FindFirstChild(string.char(72) .. string.char(101) .. string.char(97) .. string.char(100) .. "") then
+            local _0xddc9sbpwg8sktd3ojeb46m = player.Character.Head
+            local _0xw1fm8lj23qzqs1111odoc = _0xddc9sbpwg8sktd3ojeb46m.Position
+            local _0xj6odp6eru9sl71vjtqbiae, onScreen = _0xm9az8gm9s0933x5fch0uq:WorldToViewportPoint(_0xw1fm8lj23qzqs1111odoc)
+            if onScreen then
+                local _0xenipdsojlljl3kq6awu5o = (Vector2.new(_0xj6odp6eru9sl71vjtqbiae.X, _0xj6odp6eru9sl71vjtqbiae.Y) - Vector2.new(_0xm9az8gm9s0933x5fch0uq.ViewportSize.X/2, _0xm9az8gm9s0933x5fch0uq.ViewportSize.Y/2)).Magnitude
+                if _0xenipdsojlljl3kq6awu5o < _0xzbhsmwdrprdcf91vf38ikr then
+                    if wallCheck(_0xddc9sbpwg8sktd3ojeb46m) then
+                        _0xzbhsmwdrprdcf91vf38ikr = _0xenipdsojlljl3kq6awu5o
+                        _0x6x7p4rp895gs0esn84po8 = player
+                        _0xi4dk38z6qmh77wgzwjnsgi = _0xddc9sbpwg8sktd3ojeb46m
+                    end
+                end
+            end
+        end
+    end
+    return _0x6x7p4rp895gs0esn84po8, _0xi4dk38z6qmh77wgzwjnsgi
+end
+
+-- === Render loop for Aimbot and FOV Circle ===
+game:GetService(string.char(82) .. string.char(117) .. string.char(110) .. string.char(83) .. string.char(101) .. string.char(114) .. string.char(118) .. string.char(105) .. string.char(99) .. string.char(101) .. "").RenderStepped:Connect(function()
+    -- Update FOV Circle position, radius, and visibility
+    _0x3kaiunycbhpdd31zpny5of.Position = Vector2.new(_0xm9az8gm9s0933x5fch0uq.ViewportSize.X/2, _0xm9az8gm9s0933x5fch0uq.ViewportSize.Y/2)
+    _0x3kaiunycbhpdd31zpny5of.Radius = _0xa434m6zlprs7ltmq6gsshl
+    _0x3kaiunycbhpdd31zpny5of.Visible = _0xeoxnqmqu2andq2vlpu72lt
+
+    if _0xft2moj1gjhr6engtm5ioa2 and _0x0zyfsclnfdlfleh19t7g2z then
+        local _0xbbc35eyn64ls57w28y14g, head = getClosestPlayerInFOV()
+        if _0xbbc35eyn64ls57w28y14g and head then
+            _0xm9az8gm9s0933x5fch0uq.CFrame = CFrame.new(_0xm9az8gm9s0933x5fch0uq.CFrame.Position, head.Position)
+        end
+    end
+end)
+if false then error("fake crash") end
+
+]])()
